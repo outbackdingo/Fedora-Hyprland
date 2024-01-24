@@ -23,7 +23,7 @@
 ![alt text](https://github.com/JaKooLit/screenshots/blob/main/Hyprland-ScreenShots/Fedora/Hyprland-Nobara.png)
 
 > [!NOTE]
-> It does not work with Nobara 39
+> for nobara 39 and above use the script right below the fedora one.
 
 #### 📸 More up to date screenshots [`Link`](https://github.com/JaKooLit/screenshots/tree/main/Hyprland-Dots-Showcase)
 
@@ -75,7 +75,7 @@
 > [!IMPORTANT]
 > If you want to use nouveau driver, choose N when asked if you have nvidia gpu. This is because the nvidia installer part, it will blacklist nouveau. Hyprland will still be installed but it will skip blacklisting nouveau.
 
-#### ✨ to run
+#### ✨ install on fedora
 > clone this repo (latest commit only) to reduce file size download by using git. Change directory, make executable and run the script
 ```bash
 git clone --depth=1 https://github.com/JaKooLit/Fedora-Hyprland.git
@@ -83,6 +83,18 @@ cd Fedora-Hyprland
 chmod +x install.sh
 ./install.sh
 ```
+#### ⚠️ use the fedora script for nobara linux 38 and below.
+#### ✨ install on nobara linux 39 and above 
+> clone this repo (latest commit only) to reduce file size download by using git. Change directory, make executable and run the script
+```bash
+git clone --depth=1 https://github.com/JaKooLit/Fedora-Hyprland.git
+cd Fedora-Hyprland
+cd nobara-linux
+chmod +x install.sh
+./install.sh
+```
+#### ✨ nobara linux version made with ❤️ by user1126s 
+ 
 
 <p align="center">
     <img align="center" width="100%" src="https://raw.githubusercontent.com/JaKooLit/Fedora-Hyprland/main/Fedora-Install.png" />
@@ -139,8 +151,9 @@ log into your account
 
 - Fedora Sway Specific - swaylock conflicts with swaylock-effects. Lock screen would be only white. If decided to remove swaylock in favor with swaylock-effects, sway will be removed. So care
 
-- if you want to use nouveau, or if you have a fairly old nvidia card, you may want to remove the blacklist nouveau by editing your `/etc/default/grub` . See [`here`](https://github.com/JaKooLit/Fedora-Hyprland/issues/20)
-
+#### 🫥 Improving performance for Older Nvidia Cards using driver 470
+  - [`SEE HERE`](https://github.com/JaKooLit/Hyprland-Dots/discussions/123#discussion-6035205)
+  
 #### 📒 Final Notes
 - join my discord channel [`Discord`](https://discord.gg/V2SJ92vbEN)
 - Feel free to copy, re-distribute, and use this script however you want. Would appreciate if you give me some loves by crediting my work :)
